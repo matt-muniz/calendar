@@ -1,0 +1,21 @@
+
+.prevMonth{
+	background: #f8f8f8;
+	color: 	#C0C0C0;
+}
+.currentDay{
+	background: red;
+}
+.currentDay:hover{
+	color: #f8f8f8;
+}
+.hoverOver:hover{
+	color: #f8f8f8;
+	background: #C0C0C0;
+}
+#hidden{
+	display: none;
+}
+#hidden ul li{
+	list-style: none;
+}
