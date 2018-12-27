@@ -155,37 +155,4 @@ function testing(z){
 
 }
 
-/*
 
-let j = 0;
-function updateDaysInMonths(){
-	
-
-	
-		for(let i = 0; i < 1; i++){
-			let row = document.createElement("tr");
-			if(j < months.length){
-				numDaysInMonth = 32 - new Date(currentYear, j, 32).getDate();
-				//console.log(months[j]);
-			}else{
-				j = 0
-				numDaysInMonth = 32 - new Date(currentYear, j, 32).getDate();
-				
-			}
-			for(let z = 1; z <= numDaysInMonth; z++){
-
-				firstDay = new Date(currentYear, currentMonth, z).getDate();
-				let allDays = new Date(currentYear, currentMonth, z).getDay();
-				let dates = `${days[allDays]} ${months[j]} ${firstDay} ${currentYear}`
-		
-			}
-		
-		}
-		
-		if(j === 11){
-			currentYear += 1
-		}
-	j++
-	
-}
-*/
